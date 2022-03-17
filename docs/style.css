@@ -1,0 +1,134 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(220, 250, 255);
+    background-color: rgb(25, 0, 0);
+}
+
+.brokenLine {
+    font-size: 14vw;
+}
+
+.oneLine {
+    display: none;
+}
+
+@media screen and (min-width: 20cm) {
+    .brokenLine {
+        display: none;
+    }
+
+    .oneLine {
+        font-size: 10vw;
+        display: block;
+    }
+}
+
+body {
+    font-size: 2em;
+    text-align: center;
+}
+
+nav {
+    font-weight: bold;
+}
+
+footer {
+    font-weight: bold;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(120, 200, 250);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid white;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 80%;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: normal;
+}
+
+section {
+    text-align: justify;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 0.5em;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 0.5em;
+    font-weight: normal;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+
+    border-radius: 1em;
+    border-color: darkturquoise;
+    background-color: white;
+    width: 80%;
+    color: rgb(88, 59, 59);
+
+    opacity: 100%;
+    -webkit-text-fill-color: rgb(88, 59, 59);
+    -webkit-appearance: none;
+}
+
+#buttonPanel {
+    background-color: rgb(227, 255, 253);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 32cm) {
+    .box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

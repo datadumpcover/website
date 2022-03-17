@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="description"
+            content="DataDump Website and Posters"
+        />
+        <meta name="keywords" content="DataDump, Cover, SVCover, data, science, research, poster" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DataDump</title>
+
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="styleNav.css" />
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+
+        <script src="utilsUI.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                <span class="brokenLine">Data<br/>Dump</span>
+                <span class="oneLine">DataDump</span>
+            </h1>
+            <h3>Posters</h3>
+        </header>
+
+        <nav id="nav">
+            <div id="navMobile">
+                <a href="index.html">About</a>
+                <div id="subLinks">
+                    <a href="posters.html">Posters</a>
+                    <a
+                        href="https://github.com/datadumpcover"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >GitHub</a
+                    >
+                </div>
+                <div
+                    id="burger"
+                    tabindex="0"
+                    onclick="toggleNavBurger()"
+                    onkeypress="toggleNavBurger()"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div id="navDesktop">
+                <a href="index.html">About</a>
+                <a href="posters.html">Posters</a>
+                <a
+                    href="https://github.com/datadumpcover"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GitHub</a
+                >
+            </div>
+        </nav>
+        <br />
+
+        <embed
+            src="./posters/unmasking_beauty_poster_no_margin.pdf"
+            width="80%"
+            height="900"
+            type="application/pdf"
+        />
+        <embed
+            src="./posters/cyber_insecurity_poster_no_margin.pdf"
+            width="80%"
+            height="900"
+            type="application/pdf"
+        />
+
+    </body>
+</html>
